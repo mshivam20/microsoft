@@ -126,6 +126,92 @@ $(".a1").on("click",function(){
 });
 
 
+$(".menu1").on("click",function(){
+    $(".menu").removeClass("-translate-x-96");
+    $(".menu1").addClass("hidden");
+    $(".close").removeClass("hidden");
+});
+
+$(".close").on("click",function(){
+    $(".menu").addClass("-translate-x-96");
+    $(".menu1").removeClass("hidden");
+    $(".close").addClass("hidden");
+})
+$(".dropdown").on("click",function(){
+    $(".software").removeClass("hidden");
+    $(".dropdown").addClass("hidden");
+    $(".dropup").removeClass("hidden");
+
+});
+$(".dropup").on("click",function(){
+    $(".software").addClass("hidden");
+    $(".dropdown").removeClass("hidden");
+    $(".dropup").addClass("hidden");
+
+});
+
+$(".dropdown2").on("click",function(){
+    $(".devices").removeClass("hidden");
+    $(".dropdown2").addClass("hidden");
+    $(".dropup2").removeClass("hidden");
+
+});
+$(".dropup2").on("click",function(){
+    $(".devices").addClass("hidden");
+    $(".dropdown2").removeClass("hidden");
+    $(".dropup2").addClass("hidden");
+
+});
+
+
+$(".dropdown3").on("click",function(){
+    $(".entertainment").removeClass("hidden");
+    $(".dropdown3").addClass("hidden");
+    $(".dropup3").removeClass("hidden");
+
+});
+$(".dropup3").on("click",function(){
+    $(".entertainment").addClass("hidden");
+    $(".dropdown3").removeClass("hidden");
+    $(".dropup3").addClass("hidden");
+
+});
+
+$(".dropdown4").on("click",function(){
+    $(".business").removeClass("hidden");
+    $(".dropdown4").addClass("hidden");
+    $(".dropup4").removeClass("hidden");
+
+});
+$(".dropup4").on("click",function(){
+    $(".business").addClass("hidden");
+    $(".dropdown4").removeClass("hidden");
+    $(".dropup4").addClass("hidden");
+
+});
+
+
+$(".search").on("click",function(){
+    $(".search").addClass("border-2 border-blue-500 w-66 placeholder:Search ml-4");
+    $(".logo").addClass("hidden");
+    $(".third").addClass("hidden");
+    $(".search_back").removeClass("hidden");
+     $(".close").addClass("hidden");
+     $(".menu1").addClass("hidden");
+     $(".search_input").removeClass("hidden");
+
+
+});
+
+$(".search_back").on("click",function(){
+    $(".search").removeClass("border-2 border-blue-500 w-66 ml-4");
+    $(".logo").removeClass("hidden");
+    $(".third").removeClass("hidden");
+    $(".search_back").addClass("hidden");
+     $(".search_input").addClass("hidden");
+ 
+     $(".menu1").removeClass("hidden");
+})
 
 
 
